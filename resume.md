@@ -1,6 +1,5 @@
 # Michael D. Brawner
 PhD Candidate, NSF Graduate Research Fellow
-(he/him/his)
 ***
 Department of Integrative Biology
 Oregon State University
