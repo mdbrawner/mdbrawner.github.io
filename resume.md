@@ -34,7 +34,7 @@ Cumulative GPA: 3.95
 ## Teaching Experience
 ***
 ### Summer 2016
-####BI 213 Principles of Biology, Oregon State University<br>
+#### BI 213 Principles of Biology, Oregon State University<br>
 Lab component of lecture course for science majors. Topics include genetics, evolution, natural selection and ecology. 36 students.
 
 ### Spring 2016
@@ -167,6 +167,7 @@ Bradley, P.W., <B>M.D. Brawner</B>, T.R. Raffel, J.R. Rohr, D.H. Olson and A.R. 
   <li>Phi Kappa Phi Honor Society member (since 2014)</li>
   <li>Phi Theta Kappa Honor Society member (since 2011)</li>
 </ul>
+
 ### 2016
 <ul>
   <li>Integrative Biology Promotion and Tenure Student Committee</li>
