@@ -33,7 +33,7 @@ Cumulative GPA: 3.95
 
 ## Teaching Experience
 ***
-###### Summer 2016
+#### Summer 2016
 BI 213 Principles of Biology, Oregon State University<br>
 Lab component of lecture course for science majors. Topics include genetics, evolution, natural selection and ecology. 36 students.
 
