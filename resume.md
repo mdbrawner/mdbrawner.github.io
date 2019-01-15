@@ -31,7 +31,7 @@ Oregon State University, Department of Integrative Biology (formerly Zoology), C
 Portland Community College, Portland, OR, Undergraduate studies.
 Cumulative GPA: 3.95
 
-##Teaching Experience
+## Teaching Experience
 ***
 ###### Summer 2016
 BI 213 Principles of Biology, Oregon State University<br>
