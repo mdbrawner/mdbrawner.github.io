@@ -206,4 +206,4 @@ Metro Sustainability Center<br>
 503-797-1688<br>
 katy.weil@oregonmetro.gov<br>
 
-<img src="/images/16265046664_4e37b6a4ce_o.jpg" width = "50%">
+<img src="/images/16265046664_4e37b6a4ce_o.jpg" width = "20%">
