@@ -3,17 +3,12 @@ PhD Candidate, NSF Graduate Research Fellow
 <br><i>(he/him/his)</i><br>
 
 ***
-Department of Integrative Biology
-
-Oregon State University
-
-3029 Cordley Hall
-
-Corvallis, OR 97371
-
-brawnerm@oregonstate.edu
-
-(503) 927-4971
+Department of Integrative Biology<br>
+Oregon State University<br>
+3029 Cordley Hall<br>
+Corvallis, OR 97371<br>
+brawnerm@oregonstate.edu<br>
+(503) 927-4971<br>
 
 
 https://www.researchgate.net/profile/Michael_Brawner
