@@ -1,7 +1,7 @@
 # Michael D. Brawner
-PhD Candidate, NSF Graduate Research Fellow
+PhD Candidate, NSF Graduate <l>Research Fellow</l>
+<l><i>(he/him/his)</i></l>
 
-<i>(he/him/his)</i>
 ***
 Department of Integrative Biology
 
