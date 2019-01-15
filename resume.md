@@ -51,23 +51,22 @@ Lab component of lecture course for science majors. Topics include origins of li
 
 ## Research Experience
 ***
-###### 2015<br>Field Assistant, American Museum of Natural History Field Station, Portal, AZ, Supervisor: McKenna Kelly.
+###### 2015<br>Field Assistant, American Museum of Natural History Field Station, Portal, AZ <br>Supervisor: McKenna Kelly.
 Worked with PhD student McKenna Kelly on a study of the hormonal mechanisms behind cooperative breeding behavior in Mexican jays in SE Arizona.  This work involved color banding, resighting, capturing, handling, and blood drawing of both Mexican jays and Western scrub-jays.  Also performed experimental cognitive test with feeding trials to determine birds ability to discriminate quantities.
 
-###### 2013 – 2015<br>Lab Assistant, Department of Integrative Biology, Oregon State University, Supervisor: Dr. Rebecca Terry.
+###### 2013 – 2015<br>Lab Assistant, Department of Integrative Biology, Oregon State University <br>Supervisor: Dr. Rebecca Terry
 Raptor pellet dissection and species identification of small mammal remains. Prepared hair, bone, and plant samples for stable isotope analysis in collaboration with David Taylor’s PhD work.  Developing a website for a project designed to engage citizen scientists and elementary school educators in helping to map the distribution of small mammal species in Oregon using raptor pellets
 
-###### 2014<br>Field and Lab Assistant, Department of Fisheries and Wildlife, Oregon State University, Supervisor: Allyson Jackson.
+###### 2014<br>Field and Lab Assistant, Department of Fisheries and Wildlife, Oregon State University<br>Supervisor: Allyson Jackson
 Worked with PhD student Allyson Jackson studying mercury contamination in riparian songbird communities in the Willamette Valley.  Used target mist-netting to capture, band, and take blood and feather samples from breeding songbirds along the Willamette River corridor. Collected emergent aquatic insects which were identified to family and prepared for mercury analysis.
 
-###### 2014<br>Lab Assistant, Department of Integrative Biology, Oregon State University,
-Supervisor: Paul Bradley.
+###### 2014<br>Lab Assistant, Department of Integrative Biology, Oregon State University<br>Supervisor: Paul Bradley
 Worked with PhD student Paul Bradley studying chytrid fungus dynamics in Western Oregon frogs and tadpoles.  Used DNA extraction and qPCR techniques to quantify results
 
-###### 2013<br>Field Assistant, Department of Forest Ecosystems and Society, Oregon State University, Supervisor: Dr. Jim Rivers.
+###### 2013<br>Field Assistant, Department of Forest Ecosystems and Society, Oregon State University<br>Supervisor: Dr. Jim Rivers
 Participated in field study of habituation response to a novel object in breeding tree and violet-green swallows.  Recorded behavioral data, time to entry, number of feeding bouts, and nestling measurements.  Assisted in capture, banding and blood sampling in adult swallows.
 
-###### 2012 – 2013<br>Lab Assistant, Department of Fisheries and Wildlife, Oregon State University, Supervisor: Dr. Douglas Robinson
+###### 2012 – 2013<br>Lab Assistant, Department of Fisheries and Wildlife, Oregon State University<br>Supervisor: Dr. Douglas Robinson
 Data entry of historical bird survey data set into eBird format.
 
 
@@ -142,7 +141,7 @@ Willamette Valley Birds Symposium Planning Committee<br>
 American Ornithologists’ Union member (since 2016)<br>
 Raptor Research Foundation member (since 2016)<br>
 Phi Kappa Phi Honor Society member (since 2014)<br>
-Phi Theta Kappa Honor Society member (since 2012)<br>
+Phi Theta Kappa Honor Society member (since 2011)<br>
 
 ###### 2016
 Integrative Biology Promotion and Tenure Student Committee<br>
