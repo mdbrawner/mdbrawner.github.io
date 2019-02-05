@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Airports in the United States</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <style>
+
+
+
+    </style>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.3.4/chroma.min.js"></script>
+</head>
+<body>
+<!-- Our web map and content will go here -->
+<div id="map"></div>
+<script>
+  // 1. Create a map object.
+var mymap = L.map('map', {
+    center: [37.0902, -95.7129],
+    zoom: 4,
+    maxZoom: 10,
+    minZoom: 4,
+    detectRetina: true // detect whether the sceen is high resolution or not.
+});
+
+// 2. Add a base map.
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(mymap);
+
+// 3. Add cell towers GeoJSON Data
+// Null variable that will hold cell tower data
+var airports = null;
+// Get GeoJSON and put on it on the map when it loads
+airports= L.geoJson.ajax("assets/airports.geojson",{
+
+pointToLayer: function (feature, latlng) {
+  return L.marker(latlng, {icon: L.divIcon({className: 'fas fa-plane'})});
+},
+
+    attribution: 'Cell Tower Data &copy; Data.Gov | US States &copy; Mike Bostock of D3 | Base Map &copy; CartoDB | Made By mdbrawner'
+});
+// Add the cellTowers to the map.
+airports.addTo(mymap);
+
+
+</script>
+</body>
+</html>
