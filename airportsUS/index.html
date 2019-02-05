@@ -39,7 +39,7 @@ var airports = null;
 airports= L.geoJson.ajax("assets/airports.geojson",{
 
 pointToLayer: function (feature, latlng) {
-  return L.marker(latlng, {icon: L.divIcon({html: 'fas fa-plane'})});
+  return L.marker(latlng, {icon: L.divIcon({html: '<i class ="fas fa-plane"></i>'})});
 },
 
     attribution: 'Cell Tower Data &copy; Data.Gov | US States &copy; Mike Bostock of D3 | Base Map &copy; CartoDB | Made By mdbrawner'
