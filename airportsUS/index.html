@@ -81,7 +81,7 @@ L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(
 var airports = null;
 var grades = ["Y", "N"];
   // 4. build up a set of colors from colorbrewer's dark2 category
-  var colors = ['lightblue', 'navy'];
+  var colors = ['#41ab5d', '#006d2c'];
 
   // // 5. dynamically append style classes to this page. This style classes will be used for colorize the markers.
   for (i = 0; i <= 1; i++) {
@@ -124,7 +124,7 @@ var airports = null;
 
 
 // 6. Set function for color ramp
-colors = chroma.scale('YlOrRd').colors(5); //colors = chroma.scale('OrRd').colors(5);
+colors = chroma.scale('Blues').colors(5); //colors = chroma.scale('OrRd').colors(5);
 
 function setColor(density) {
     var id = 0;
@@ -162,11 +162,11 @@ var legend = L.control({position: 'topright'});
       // Create Div Element and Populate it with HTML
       var div = L.DomUtil.create('div', 'legend');
       div.innerHTML += '<b># Airports </b><br />';
-      div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p>19+</p>';
-      div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p>14-18</p>';
-      div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p>11-13</p>';
-      div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p> 6-10</p>';
-      div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> 0- 5</p>';
+      div.innerHTML += '<i style="background: ' + colors[4] + '; opacity: 0.5"></i><p>>25</p>';
+      div.innerHTML += '<i style="background: ' + colors[3] + '; opacity: 0.5"></i><p>20-25</p>';
+      div.innerHTML += '<i style="background: ' + colors[2] + '; opacity: 0.5"></i><p>16-20</p>';
+      div.innerHTML += '<i style="background: ' + colors[1] + '; opacity: 0.5"></i><p> 11-15</p>';
+      div.innerHTML += '<i style="background: ' + colors[0] + '; opacity: 0.5"></i><p> <11</p>';
       div.innerHTML += '<hr><b>Control Tower Present<b><br />';
       div.innerHTML += '<i class="fa fa-plane marker-color-0"></i><p> Yes</p>';
       div.innerHTML += '<i class="fa fa-plane marker-color-1"></i><p> No</p>';
