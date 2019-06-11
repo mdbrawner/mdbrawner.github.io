@@ -26,16 +26,7 @@ To incorporate the above deliverables, we applied several functions to the map t
 
 
 ## Libraries
-leaflet.css
-leaflet.js
-leaflet.ajax
-jquery
-chroma.js
-Font awesome
-Google fonts
-LabelGun
-Proj4
-Proj4leaflet
+leaflet.css, leaflet.js, leaflet.ajax, jquery, chroma.js, Font awesome, Google fonts, LabelGun, Proj4, Proj4leaflet
 
 ## Data sources
 Airport data: This data is converted from a shapefile, which was downloaded and unzipped from https://catalog.data.gov/dataset/usgs-small-scale-dataset-airports-of-the-united-states-201207-shapefile.
