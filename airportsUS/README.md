@@ -39,6 +39,7 @@ Proj4leaflet
 
 ## Data sources
 Airport data: This data is converted from a shapefile, which was downloaded and unzipped from https://catalog.data.gov/dataset/usgs-small-scale-dataset-airports-of-the-united-states-201207-shapefile.
+
 State data: This data is acquired from [Mike Bostock](https://github.com/mbostock) of D3.
 
 ## Acknowledgements
