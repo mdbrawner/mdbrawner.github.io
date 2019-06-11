@@ -25,7 +25,7 @@ A version of the map can be found here: https://mdbrawner.github.io/airportsUS/
 To incorporate the above deliverables, we applied several functions to the map that allow us to visualize the informaiton contained.  First we found airplane icons on [Font Awesome](https://fontawesome.com/?from=io) to apply to the map for each airport location that were color coded by presence/absence of control tower and were fuctionalized into clickable markers to display the airport name and city when clicked.  Secondly, we dynamically set a color scheme for the cloropleth to display a color scale based on the number of airports per state categorized following the legend. For the legend we created a Leaflet control object and populated it with html and styled with css.  We also included state name labels with a bit of complicated code using the [LabelGun](https://github.com/Geovation/labelgun) library.  This allows us to actively update label styling while zooming in and out.  Finally we reporjected our map from web mercator to a lambert conformal conic projection allowing us to visualize all 50 states and Puerto Rico on the screen at once.  We also added graticules that dynamically change in width as the zoom is applied.
 
 
-##Libraries
+## Libraries
 leaflet.css
 leaflet.js
 leaflet.ajax
