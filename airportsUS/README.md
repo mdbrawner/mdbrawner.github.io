@@ -6,7 +6,7 @@
 > **Design by:** [Michael Brawner](https://github.com/mdbrawner)
 
 
-##Introduction
+## Introduction
 The primary goal of this project was to design a chloropleth map of the number of airports in the US by state.  In addition, further information such as whether the airport has a control tower or not and the name of the airport have also been included in the visualization
 
 A version of the map can be found here: https://mdbrawner.github.io/airportsUS/
@@ -42,4 +42,4 @@ Airport data: This data is converted from a shapefile, which was downloaded and 
 State data: This data is acquired from [Mike Bostock](https://github.com/mbostock) of D3.
 
 ## Acknowledgements
-Thanks to [Bo Zhao](https://github.com/jakobzhao) and [Courtney Van Stolk](https://github.com/vanstolc) for previous code that this project was built off of.  
+Thanks to [Bo Zhao](https://github.com/jakobzhao) and [Courtney Van Stolk](https://github.com/vanstolc) for previous code that this project was built off of.
