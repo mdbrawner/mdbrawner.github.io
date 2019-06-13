@@ -1,0 +1,139 @@
+html, body { width: 100%; height: 100%; margin: 0; background: #fff; }
+
+#mymap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(213,218,220);
+}
+
+
+#mymap2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav{
+  position:absolute;
+  top:0;
+}
+
+#home {
+  border-color: rgba(0,0,0,.2) ;
+  background-color: rgba(0,0,0,.2);
+  right:182px;
+
+}
+#load {
+  border-color: rgba(0,0,0,.2) ;
+  background-color: rgba(0,0,0,.2);
+  right:100px;
+
+}
+#unload{
+  border-color: rgba(0,0,0,.2) ;
+  background-color: rgba(0,0,0,.2);
+  right:40px;
+}
+
+/*
+.mind-process{
+    z-index: 1000;
+    margin-bottom: 20px;
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+} */
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: absolute;
+
+  border-radius: 5px;
+  top:60px;
+  width:400px;
+  right: 20px
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 100s;
+  animation-name: fade;
+  animation-duration: 100s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9}
+  to {opacity: 1}
+}
+
+.background_img{
+  transform: rotate(90deg);
+
+
+}

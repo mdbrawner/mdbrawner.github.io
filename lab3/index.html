@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>lab 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="please add">
+  <!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="css/webslides.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <!-- Javascript Library -->
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/webslides.min.js"></script>
+  <script src="https://unpkg.com/d3@5/dist/d3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.js"></script>
+  <script src="stl_viewer.min.js"></script>
+</head>
+
+<body>
+  <article id="webslides">
+    <!-- the landing scene -->
+    <section class="bg-apple">
+      <img src="img/IMG_1576.JPG" class="background_img">
+      <!-- <video class="background-video dark" autoplay muted loop>
+        <source src="assets/view.mp4" type="video/mp4">
+      </video> -->
+      <div class="wrap aligncenter">
+        <h1 style="text-shadow: 2px 2px #060606;">
+          <strong>Tracking size through time</strong>
+        </h1>
+      </div>
+      <div class="wrap aligncenter" style="top:120px">
+        <div style="margin:auto;width:50%">
+        <h4 style="text-shadow: 1px 1px #060606;background-color: rgba(0, 0, 0, .3);
+              border-radius: 2px;box-shadow: 0 0 5px 10px rgba(0, 0, 0, .3);">
+          An investigation into the effects<br>of climate change
+          </h4>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bg-apple">
+      <div class="wrap">
+        <img src="img/paper1.PNG" style="width:20%;float:right;transform:rotate(-20deg);margin-right:50px;margin-top:10px">
+        <img src="img/paper2.PNG" style="width:20%;float:right;transform:rotate(17deg);margin-right:-120px;margin-top:130px">
+        <p style="font-size:10px;width:60%">
+          <strong>Global temperatures over the past century</strong> have risen by an average of 0.85 °C. This warming has already contributed to major alterations of both terrestrial and marine ecosystems, and a predicted warming of 2 °C over the next century will exacerbate these changes. Among plants and animals, documented effects of climate change have included shifts in species’ ranges (largely poleward and upward), advances in phenology (e.g. earlier spring emergence,  changes in migratory arrival and departure dates, reduced hibernation duration), population dynamic consequences (e.g. reduced fitness due to phenotypic mismatches with preferred prey, increased fitness as a result of longer growing seasons), and changes in behavior, morphology and physiology. Of these responses, poleward (upward) range shifts and advances in spring phenology have been so well documented that they are now thought to represent a “universal fingerprint” of the impacts of climate change on plants and animals. More recently, correlations between declining body size of animals and rising global and regional temperatures have become increasingly apparent leading some researchers to suggest this phenomenon represents a “third universal response” to climate warming. The generality of the body size response to increasing temperatures and the mechanisms behind recent widespread declines in body size, however, remain unclear.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- the first map -->
+    <section class="bg-black-blue">
+      <div style="position:absolute;top:0px;left:0px;">
+        <img src="img/kestrel-on-the-wing-1.jpg">
+        <div class="wrap" style="top:60px;">
+          <h4 style="width:400px;">America&#8217;s Smallest Falcon is Getting Smaller</h4>
+          <h6 style="width:400px;">By Lauren Chambliss</h6>
+          <h7 style="width:400px;">March 31, 2019</h7>
+        </div>
+        <div class="wrap" style="top:230px;">
+          <small style="float:right;">American Kestrel by <a href="https://macaulaylibrary.org/asset/86471391">Matt Davis/Macaulay Library</a>.</small>
+        </div>
+        <div class="wrap" style="top:0px;">
+          <a href="http://www.birds.cornell.edu/" rel="parent" title="the Cornell Lab of Ornithology"></a>
+          <object type="image/svg+xml" data="https://files.allaboutbirds.org/wp-content/themes/html5blank-stable/images/CLO-SVG-logo.svg" class="svg-logo" style="width:200px;">The Cornell Lab of Ornithology</object>
+          <h10 >All About Birds</h10>
+        </div>
+        <div class="wrap" style="top:270px">
+          <p style="font-size: 10px;">
+            <strong>The American kestrel</strong> is one such species that has been documented as having a decline in size over the last 50 years.
+            As highlighted in the recent media article above published by the Cornell Lab of Ornithology, Teresa Ely and colleagues used historical data from long-term raptor banding sites to track the size of kestrels through time.
+            They found declines in both the average mass and the wing length(a commonly used proxy for body size) of Amercian kestrels over a 30 to 50 year period for some populations.
+            Our research will expand upon this important finding although it is unique in several ways from the above mentioned study.  First we will draw from the extensive museum collections records for American kestrels in natural history museums around the country.
+            Doing so allows to link the size data we collect to a specific location and thereby analyze how certain enviromental factors may influence size over a variety of spatial scales. Using the museum collectoins record also allow us to extend the temporal window of anyalysis back another 100 years!
+          </P>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+    <section class="bg-apple" style="background-size:contain;">
+      <div class="wrap">
+    <p style="font-size:10px">
+          <strong>Scientific collections based research</strong> provides many advantages for studying the historical ecology of species.  However, there are many limitations and assumptions that one must deal with when using historical specimens. Even the most basic of questions, "What is body size?" can be tricky.
+          The most commonly and intuitively used metric for size is mass, but mass can vary dramatically over the course of a year and is not always recorded in the first place.
+          In the absence of mass data, many researchers turn to using proxies for body size; linear measurements such as wing cord (the length of the folded wing from the wrist to the tip of the longest feather), or tarsometatarsal length (the length of the exposed portion of the leg).  While these measures may be highly correlated with body size, they are also subject to their own selective pressures that might influence the length or shape of the trait.  Flight feathers, for instance, can wear and fray over the course of a year before they are molted and replaced.
+          All of these factors complicate aswering the seemingly simple question of how size is changing through time.
+        </p>
+        <div id="stl_cont" style="postion:absolute;width:200px;height:200px;margin-left:20px;float:right;font-size:10px;">Click on the object to manipulate</div>
+
+        <p style="font-size:10px;">To levarage the vast collection of museum study skins we need to figure out how to get the best measure of size from them.  To address this question we will compare paired samples of skeletal elements (likely a more robust proxy for structural size) with the traditional "field" measurements that are often taken for bird specimens.
+          To do this we are using 3D imaging technology to scan the sternal element of individuals (seen in the image to the right).  We then use software to compute a unitless size measure that can be compared with the traditional linear measurements, such as wing cord, tarsus length and others, of the paired study skin. Determining which linear trait, or combination of linear traits most accurately represents structural size will provide a guideline and more robust support for which for using museum study skins to analyze how size changes through time.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+
+  </article>
+
+  <script src="stl_viewer.min.js"></script>
+
+  <script>
+    // make the web slide object.
+    var ws = new WebSlides();
+
+    var stl_viewer=new StlViewer
+    (
+        document.getElementById("stl_cont"),
+        {
+            auto_rotate:true,
+            bgcolor:"lightgray",
+            allow_drag_and_drop:true,
+            auto_resize: false,
+            zoom:50,
+            models:
+            [
+                {filename:"FusionResult.stl", display:"smooth"}
+            ]
+        }
+    );
+
+
+
+  </script>
+
+</body>
+
+</html>
